@@ -1,14 +1,3 @@
-
-// Convert Image To Editable Text With JavaScript
-
-// Code written by:
-// 👨🏻‍⚕️ Coding Design (Jeet Saru)
-
-// > You can do whatever you want with the code. However if you love my content, you can **SUBSCRIBED** my YouTube Channel.
-
-// 🌎link: www.youtube.com/codingdesign
-
-
 const img_url = document.querySelector('#img-url'),
     upload_file_btn = document.querySelector('#upload-file-btn'),
     copy_text = document.querySelector('#copy-text'),
@@ -93,7 +82,7 @@ speechBtn.addEventListener("click", e =>{
             setInterval(()=>{
                 if(!synth.speaking && !isSpeaking){
                     isSpeaking = true;
-                    speechBtn.innerText = "<i class=\"fa fa-microphone\" aria-hidden=\"true\"></i> Tinglanmoqda";
+                    speechBtn.innerText = " Tinglanmoqda";
                 }else{
                 }
             }, 500);
